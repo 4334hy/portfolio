@@ -1,0 +1,754 @@
+@charset "UTF-8";
+
+body {
+  /*
+  background-color: white;
+  */
+  font-family: 'Noto Sans JP','Noto Serif JP',sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+}
+/*
+.menu {
+  font-family: 'Josefin Sans',sans-serif;
+}
+*/
+
+.topPage header {
+  height: 90vh;
+/*
+  background: url(../images/top_bg.jpg) no-repeat center top/cover;
+*/ 
+ padding-top: 50px;
+  margin-bottom: 64px;
+}
+.topPage header h1 img {
+
+  text-align: center;
+  background: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+  margin: 20px auto;
+
+  width: 240px;
+}
+.topPage header h1 {
+  text-align: center;
+
+  background: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+  margin: 20px auto;
+  width: 240px;
+
+}
+.topPage header h1 span {
+  background-image: linear-gradient(135deg,#e6ba5d 0%,#9ac78a 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.topPage h1 {
+  width: 240px;
+  height: 19.711px;
+  position: absolute;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: .17em;
+  margin-bottom: 10px;
+}
+.topPage h2 {
+  width: 375px;
+  height: 51.71px;
+ 
+}
+
+.topPage h3 {
+  font-family: Noto Sans JP;
+  font-size: 28px;
+  font-style: normal;	
+  text-align: center;
+  /*
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  */
+}
+.topPage main {
+  padding: 0 20px;
+}
+
+.innerWrap {
+  border: 4px solid #ffffff;
+  width: 375px;
+  height: 532px;
+  margin: 0 auto;
+  padding: 80px 20px 0;
+  font-family: Noto Sans JP;
+  font-size: 16px;
+
+}
+
+header {
+  background: #ffffff;
+}
+header .innerWrap {
+  height: 360px;
+  position: relative;
+}
+
+header h1 {
+  padding-top: 120px;
+}
+header .scroll {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+header .scroll img {
+  margin-top: 8px;
+}
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+header nav ul {
+  
+  /*
+  display: flex;
+  */
+  display: block;
+  font-family: Noto Sans JP;
+  color: #333333;
+  justify-content: space-around;
+  width: 375px;
+  height: 532px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+h3 .corner {
+  color: #333333;
+  font-family: Noto Sans JP;
+  text-align: center;
+  font-size: 28px;
+  /*
+  letter-spacing: .05em;
+  margin-bottom: 80px;
+  */
+  margin: 20px auto;
+  width: 300px;
+}
+
+h4 {
+  color: #333333;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  /*
+  letter-spacing: .05em;
+  margin-bottom: 80px;
+  */
+  margin: 20px auto;
+  width: 300px;
+}
+
+h4 span {
+  width: 30px;
+  color: #333333;
+  font-size: 14px; 
+}
+
+.photo {
+  width: 351px;
+  height: 246.292px;
+  margin: 20px auto;
+  
+}
+/*
+aside {
+  flex-basis: 1240px;
+}
+*/
+main .lead {
+  color: #333333;
+  font-family: Noto Sans JP;
+  text-align: center;
+  font-size: 14px;
+  /*
+  letter-spacing: 0.5em;
+  margin-bottom: 40px;
+  */
+  margin: 20px auto;
+}
+main .text {
+  color: #333333;
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  text-align: left;
+  /*
+  letter-spacing: .05em;
+  margin-bottom: 40px;
+  */
+}
+
+main .next {
+  color: #333333;
+  font-size: 14px;
+  text-align: right;
+  /*
+  letter-spacing: .05em;
+  margin-bottom: 40px;
+  */
+}
+h5 {
+  color: #333333;
+  font-family: Noto Sans JP;
+  text-align: center;
+  font-size: 14px;
+  /*
+  letter-spacing: .05em;
+  margin-bottom: 40px;
+  */
+}
+
+
+.flow-a {
+  text-align: center;
+  /*
+  font-feature-settings: 'vert' on;
+  */
+  font-family: Noto Sans JP;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+.flow-a a {
+  font-size: 16px;
+  display: block;
+  /* padding: 20px 0; */
+  /*
+  border-radius: 4px;
+  */
+  color: #ffffff;
+ 
+  font-weight: bold;
+  margin: 0 auto;
+  width: 300px;
+
+}
+.flow-a ol {
+  width: 300px;
+  height: 16px;
+  /*
+  flex-shrink: 0;
+  */
+  margin: 0 auto;
+}
+
+.flow-a li {
+ 
+  background-color: #333333;
+
+ 
+  border: 3px solid #ffffff;
+ 
+
+  border-radius: 20px;
+
+  margin: 0 auto;
+
+  width: 300px;
+}
+
+.flow-a span{
+  
+  display: block;
+  
+/*
+  border-radius: 20px;
+  */
+ /*
+  border: 3px solid #ffffff;
+  */
+  
+  background-color: #ffffff;
+  /*
+  border-radius: 20px;
+  */
+  
+  text-align: center;
+  color: #b71b26;
+/*
+  border: 6px solid #ffffff;
+  */
+ 
+}
+
+.Scontent {
+  width: 365px;
+  margin: 0 auto;
+  font-family: Noto Sans JP;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  /*  横並び
+  display: flex;
+  */
+  justify-content: center;
+   
+}
+
+.Scontent li {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Noto Sans JP;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  margin: 0 auto;
+ 
+}
+
+.Scontent h5 {
+margin: 0 auto;
+font-family: Noto Sans JP;
+text-align: center;
+font-size: 14px;
+color: #333333;
+
+},
+
+
+
+.QandA {
+  text-align: center;
+  font-family: Noto Sans JP;
+  margin-bottom: 20px;
+/*
+  margin: 0 auto;
+
+  width: 300px;
+*/
+}
+.chara-q span {	
+  text-align: center;
+  width: 52px;
+/*
+  height: 52px;
+
+  font-style: 34px;
+*/
+	background-color: #333333;
+  
+/*
+  font-size: 34px;
+*/
+  color: #ffffff;
+
+    border-radius: 50%;    /* P.89 */
+}
+
+.chara-a span {	
+  text-align: center;
+   width: 52px;
+/*
+  height: 52px;
+*/
+/*
+  font-size: 34px;
+*/
+
+	background-color: #b71b26;
+  color: #ffffff;
+/*
+  display: block;	
+*/
+
+  border-radius: 50%;    /* P.89 */
+  /*
+  margin: 0 auto;
+
+  width: 300px;
+  */
+   
+}
+
+.chara-q p,.chara-a p{	
+  text-align: center;
+ font-size: 34px;
+ color: #333333;
+ margin: 0 auto;
+
+  width: 300px;
+
+}
+
+
+.QandA dt,.QandA dl{
+
+  margin: 0 auto;
+
+  width: 300px;
+}
+
+
+form span {	
+  width: 40px;
+  height: 18px;
+	font-size: 10px;
+  color: #ffffff;
+	background-color: #b71b26;
+  /*
+ 	display: block;	
+  */
+ 	border: 3px solid #ffffff;	
+	border-radius: 8px;    /*p.82 */
+	padding: 6px 0;
+}
+
+
+.submitBtn {
+  background-color: #333333;
+  text-align: center;
+ font-size: 16px;
+ widows: 200px;
+ height: 48px;
+ margin: 0 auto;
+ color: #ffffff;
+  
+}
+input[type="submit"] {
+  background-color: #f5f5f5;
+  color: #ffffff;
+  padding: 18px 80px;
+}
+
+/* P.233 タイトル文字をグラデーションにしよう　P.80　フォントのサイズ設定　*/
+form {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  text-align: center;
+  color: #333333;
+  font-size: 12px;
+  font-weight: bolder;
+
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 5px;
+  padding: 4px 8px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  vertical-align: baseline;
+  margin-right: 4px;
+}
+.attendRadio {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.attendRadio label {
+  margin: 0 20px;
+  font-size: 24px;
+}
+.allergyCheck label {
+  margin-right: 24px;
+}
+/*
+select {
+  background: #ffffff url(../images/arrow.png) no-repeat 98% 50%/17px 10px;
+}
+*/
+textarea {
+  height: 148px;
+  margin-bottom: 30px;
+}
+form  p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.submit {
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 18px 80px;
+}
+
+footer {
+  /* width: 300px; */
+  background-color: #333333;
+  color: #ffffff;
+  padding: 14px 10px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 20px auto;
+  width: 300px;
+}
+
+
+
+
+/*** CONCEPT  *********************/
+
+
+.conceptSec p lead {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+
+.conceptSec p text {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+
+.conceptSec .lead {
+  font-size: 12px;
+  line-height: 1.78;
+}
+
+
+.conceptSec .text {
+  font-size: 12px;
+  line-height: 1.78;
+}
+.conceptSec {
+  margin-bottom: 50px;
+}
+/*
+.conceptSec .photo {
+  margin-bottom: 14px;
+}
+*/
+
+.conceptSec p img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+.conceptSec .text {
+  font-size: 12px;
+  line-height: 1.78;
+}
+.conceptSec {
+  margin-bottom: 50px;
+}
+/*
+.conceptSec .photo {
+  margin-bottom: 14px;
+}
+*/
+
+
+
+
+/*** SERVICE  *********************/
+
+.serviceSec p text {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+
+.serviceSec p next {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+
+.serviceSec .text {
+  font-size: 12px;
+  line-height: 1.78;
+}
+
+
+.serviceSec .next {
+  font-size: 12px;
+  line-height: 1.78;
+}
+.serviceSec {
+  margin-bottom: 50px;
+}
+/*
+.serviceSec .photo {
+  margin-bottom: 14px;
+}
+*/
+
+.serviceSec p img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 90%;
+}
+.serviceSec .text {
+  font-size: 12px;
+  line-height: 1.78;
+}
+.serviceSec {
+  margin-bottom: 50px;
+}
+
+
+/*** FLOW     *********************/
+/
+}
+
+
+.flowSec .next {
+  font-size: 12px;
+  line-height: 1.78;
+}
+*/
+
+.flowSec {
+  margin-bottom: 50px;
+}
+
+
+.contactSec {
+  margin-bottom: 50px;
+}
+
+
+/*** マルチメディア対応　P.198   **********/
+/*
+@media screen and (min-width: 768px) {
+  
+.Scontent {
+
+  /*  縦並びから横並びに変更
+  display: flex;
+｝
+}
+
+*/
+
+
+/* 以下に参考サイトのメニュー用CSSを貼り付ける */
+/* メニューを画面上部に固定表示しています */
+.gMenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* メニューアイコンを画面右上に固定しています */
+.gMenu .menu-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  padding-top: 5px;
+  height: 12px;
+}
+/* メニューアイコン（三本線）の真ん中の線です */
+.gMenu .menu-icon .navicon {
+  background: #b71b26; /* 色は自由に変更可能です */
+  display: block;
+  height: 2px; /* 太さ */
+  width: 31px; /* 長さ */
+  position: relative;
+  transition: background .4s ease-out; /* 形が変わる時のアニメーション */
+}
+/* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+.gMenu .menu-icon .navicon::before,
+.gMenu .menu-icon .navicon::after {
+  background: #b71b26; /* 色は自由に変更可能です */
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+  width: 100%;
+}
+.gMenu .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
+.gMenu .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
+/* 表示されるメニューです */
+.gMenu .menu {
+  background-color: rgba(255,255,255,0.9);
+  overflow: hidden;
+  max-height: 0; /* ★最初は高さを0にして非表示状態に */
+  transition: max-height .6s; /* 表示されるときのアニメーション */
+  text-align: center;
+}
+/* メニュー部分のデザインです */
+.gMenu .menu li:first-of-type {
+  padding-top: 50px;
+}
+.gMenu .menu li a {
+  display: block;
+  padding: 24px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.gMenu .menu li a:hover {
+  background-color: #ffffff;
+}
+/* チェックボックスは常に非表示です */
+.gMenu .menu-btn {
+  display: none;
+}
+/* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+.gMenu .menu-btn:checked ~ .menu {
+  max-height: 338px; /* ★チェックボックスがオンの時高さを338pxにして表示させます */
+  transition: max-height .6s;
+}
+/* メニューボタンの中央の線を非表示に */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+
+/* メニューボタンの上下の線を45度傾けて✕印を作ります */
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::before {transform: rotate(-45deg);top: 0;}
+.gMenu .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(45deg);top: 0;}
+/* サイトに合わせてオリジナルカスタマイズ */
+.gMenu .menu-icon {
+  top: 26px;
+}
+.gMenu .menu-icon .navicon,
+.gMenu .menu-icon .navicon::before,
+.gMenu .menu-icon .navicon::after {
+  background: #333333;
+}
+
