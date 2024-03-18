@@ -1,0 +1,190 @@
+/* ===== style.cssの上書き ===== */
+/*　Top Page */
+.inputAdress {
+	width: 600px;
+  }
+  input[type="submit1"] {
+	  border : 1px solid #cccccc;
+	  background-color: #007AB7;
+      color: #ffffff;
+	  width: 100%;
+	  margin-top: 4px auto;
+	  padding: 4px 8px;
+  }
+  
+  input[type="submit2"] ,
+  input[type="submit3"] {
+	  width: 100%;
+      background-color: #007AB7;;
+	  text-align: center;
+	  font-size: 18px;
+	  color:#ffffff;
+	  margin-top: 4px;
+	  padding: 4px 8px;
+  }
+  .topS1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: 0 auto;
+    justify-content: space-around;
+   }
+.topS10 {
+    width: 800px;
+    margin: 4px 4px;
+    flex-basis: auto;
+
+}
+.topS11 {
+    width: 80px;
+    margin: 4px 4px;
+    flex-basis: auto;
+
+}
+
+  #topSend {
+    width: 50px;
+  }
+  #topHere {
+    width: 100px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    padding: 4px 8px;
+  }
+  /* Page 4 */
+.sheetPage43 {
+    max-width: 100%;
+}
+img {	
+    max-width: 100%;
+}
+.sheetPage40 , sheetPage41 , .sheetPage42 {
+	width: 500px;
+	height: 100%;
+}
+
+/* Page 5 */
+.sheetPage5 {
+    width: 1240px;
+    height: 100%;
+}
+.sheetPage50 , .sheetPage51 ,
+.sheetPage52 , .sheetPage53 ,
+.sheetPage54 {
+    width: 1240px;
+    height: 100%;
+}
+
+/* ===== 機能の実装に必要なCSS ===== */
+
+/* ドロワーナビゲーションの必須スタイル */
+.sheetPage43 {
+    position: relative;
+    right: -500px;
+    top: 0;
+    width: 500px;
+    height: 100%;
+}
+.sheetPage501 {
+    position: relative;
+    right: -500px;
+    top: 0;
+    width: 500px;
+    height: 100%;
+}
+
+/* ドロワーが開かれたときのスタイル */
+.show {
+    transform: translate3d(-500px, 0, 0);
+}
+
+/* 開く・閉じるアニメーション */
+.sheetPage4, .sheetPage43 {
+    transition: transform 0.3s;
+}
+.sheetPage5, .sheetPage501 {
+    transition: transform 0.3s;
+}
+
+/* ===== ヘッダーにボタンを配置 ===== */
+.sheetPage420 {
+    width: 640px;
+    flex: 0 0 32px;
+    align-self: center;
+    margin-left: 16px;
+    text-align: center;
+    color: #fff;  
+}
+.sheetPage50 {
+    flex: 0 0 32px;
+    width: 800px;
+    align-self: center;
+    margin-left: 16px;
+    text-align: center;
+    color: #fff;  
+}
+
+/**** question  ****/
+#map { 
+    float: left;
+	width:400px;
+	height: 350px;
+	margin: 0px 0px 0px 10px;
+}
+#access{
+	float: left;
+	width: 400px;
+	margin: 0px 10px 10px 10px;
+}
+/** ドロワー表示を閉じるボタン **/
+.modalClose1 , .modalClose2 {  
+  
+    position: relative;
+   
+    width: 20px;  
+    height: 20px;
+    top: 0;    
+    left: 10px;
+}
+/**  ドロワー未表示 ***/
+
+.sheetPage43 {
+    display: none; 
+}
+.sheetPage501 {
+    display: none; 
+}
+/*** contact ***************************/
+
+.form{
+	width: 600px;
+	margin: 10px auto;
+}
+
+.form input{
+	width: 400px;
+	margin :10px auto;
+}
+
+#form-content{
+	width: 400px;
+	height: 50px;
+}    
+
+#form-bottun{
+	width:50px;
+
+}
+h4 {
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    color: #ffffff;
+    padding: 20px 0px 16px;
+    margin: 8px auto;
+  }

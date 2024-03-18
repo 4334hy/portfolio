@@ -1,0 +1,63 @@
+/*** policy  **********/
+.shop3 {
+  width: 1366px;
+  height: 664px;
+}
+
+/**** question  ****/
+
+#map{
+ 
+	width: 700px;
+	height: 400px;
+	margin: 0px 0px 0px 10px;
+}
+
+#access{
+	width: 700px;
+	height: 200px;
+	margin: 0px 0px 0px 10px;
+}
+
+#time{
+   	width: 700px;
+	height: 400px;
+	margin: 0px 0px 0px 10px;
+}
+
+table{border-collapse: collapse;}
+td{	border: solid 1px #000000;
+	width:50px;
+	padding:6px;
+}
+
+/*** contact ***************************/
+.right-column{
+	width: 720px;
+	background-color: #ede0f4;
+}
+
+.form{
+	width: 600px;
+	margin: 10px auto;
+}
+
+.form input{
+	width: 400px;
+	margin :10px auto;
+}
+
+#form-content{
+	width: 400px;
+	height: 50px;
+}
+
+#form-bottun{
+	width:50px;
+
+}
+h4 {
+	text-align: center;
+}
+
+
