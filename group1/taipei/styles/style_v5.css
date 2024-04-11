@@ -1,0 +1,696 @@
+@charset "utf-8"; 
+/*  header set */
+body {
+  width: 100%;  /* 1366 -> 100% 4/7 */
+  font-family: Zen Kaku Gothic New;
+  font-size: 20px;
+  color: #000000;
+}
+img {
+  max-width: 100%;
+}
+.peiSwich {
+  font-family: Zen Kaku Gothic New; 
+}
+.innerWrap {
+  width: 100%;   /* 1200  -> 100% 4/7 */
+  margin: 0 auto;
+  padding: 80px 20px 0;
+}
+header .peiTop {
+  width: 1366px; /* 1366 -> 100% 4/7 NG */
+  height: 768px; /* 768 -> 100% 4/7 NG */
+  background: url(../images/peiPhoto1.png) no-repeat right center/cover;
+  background-size: contain;
+  font-family: Zen Kaku Gothic New;
+  /*
+  object-fit: cover;   /* 4/7 */
+}
+.topPage header {
+  width: 100%;   /* 4/7 Add */
+ /* height: 90vh;  */  /* 4/7 Delist */
+  padding: 50px;
+  margin-bottom: 64px;
+}
+header .logo1 img {
+  width: 133px;
+  height: 54px; 
+  /*object-fit: cover;   /* 4/7 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;  
+}
+menu {
+  font-family: Zen Kaku Gothic New;
+ }
+
+header .icon1 img {
+  width: 32px;
+  /* height: 32px; */  /* 4/7 Delist */
+ /* object-fit: cover;   /* 4/7 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 512px 1232px 224px 104px;
+  
+ }
+header .icon2 img {
+  width: 40.92px;
+  /* height: 49.923px; */ /* 4/7 Delist */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 576px 1220px 144px 96px;
+}
+header .icon3 img  {
+  width: 38.9px;
+  /* height: 32px; */ /* 4/7 Delist */
+  /*object-fit: cover;   /* 4/7 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 656px 1224px 80px 104px;  
+}
+header .logo3 img {
+  width:300px;
+  height : 539px;   /* 539 -> 100% 4/7 NG */
+  /*object-fit: cover;   /* 4/7 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin : 92px 704px 132px 364px; 
+ 
+}
+
+header .textTop {
+  width: 467px;   /* 467 -> 100% 4/7 NG */
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 652px 104px 20px 796px; 
+  font-size: 12px;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal; 
+  color: #ffffff;
+  text-align: left;
+  word-break: break-all; 
+  /*
+  white-space: pre-wrap;
+  */
+  
+}
+
+header nav {
+  /*
+  position: fixed;
+  */
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 50%;
+  z-index: 100;
+  
+}
+
+header nav ul {
+  display: flex;  
+  justify-content: space-around;
+  width: 1000px;    /* 1000  -> 100% 4/7 NG */
+  margin: 0 200 0 auto;
+  padding: 4px 4px;
+  font-size: 24px;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal;
+  color: #ffffff;  
+}
+header nav ul li a:hover {
+  text-decoration: none;
+}
+header .textAdress {
+  width: 100%;    /* 1200  -> 100% 4/7 */
+  height: 50px;  /* 4/7 Delist NG */
+  font-size: 20px;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal;
+  color: #000000;  
+  border-bottom : 3px solid #000000;
+
+}
+
+/* header set end */
+/* main section 1 */
+
+main h1 {
+  width: 530px;
+  /*height: 96px; */
+  background: url(../images/entryWord.png) no-repeat right center/cover;
+  background-size: cover;
+  text-align: center;
+  font-size: 48px;
+  font-family: Zen Kaku Gothic New;
+  color: #000000;
+  letter-spacing: .05em;
+  margin-bottom: 80px;
+  font-style: normal;
+  /*font-weight: 400;
+  line-height: 48px; /* 100% */  
+}
+
+h2  {
+  font-family: Zen Kaku Gothic New;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+  color: #000000;
+ }
+main .tour10 , main .tour11 , 
+main .tour20 , main .tour21  {  
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+ 
+}
+main .item10 img , main .item20 img {
+  width: 600px;
+  margin: 8px 8px;
+  /*object-fit: cover;   /* 4/7 */
+  flex-basis: auto;
+}
+main .item11 , main .item21 {
+  width: 420px;
+  flex-basis: auto;
+  margin: 8px 8px; 
+}
+main .item12 img , main .item13  img , 
+main .item22 img , main .item23  img {
+  width: 290px;
+  flex-basis: auto;
+  /*object-fit: cover;   /* 4/7 */
+  margin: 8px 8px;
+}
+main .item12 img , main .item13 img {
+  height: 167px;
+  /*object-fit: cover;   /* 4/7 */
+}
+
+
+main .item14 , main .item24 {
+  width: 500px;
+  flex-basis: auto;
+  margin: 8px 8px;
+}
+p.text1 , p .text2 {
+  font-size: 20px;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal;
+  color: #000000;
+  word-break: normal; 
+  /*
+  white-space: pre-wrap;
+  */
+  text-align: left;
+}
+.text1 {
+  word-break: normal; 
+  text-align: left; 
+}
+.text2 {
+  text-align: center;
+}
+
+
+/* main section 3 */
+
+main .tour3 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;  /* 1200 -> 100% 4/7 */
+  margin: 0 auto;
+  justify-content: space-around;
+ 
+}
+
+main .item30   {
+  width: 420px;
+  /*
+  height: 197px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px;
+}
+
+main .item31  img {
+  width: 540px;
+  flex-basis: auto;
+ /* object-fit: cover;   /* 4/7 */
+  margin: 4px 4px;
+  
+}
+main .item32   {
+  width: 460px;
+  flex-basis: auto;
+  right:20px;
+  margin: 8px 8px;
+}
+/* drawer add **/
+.toureN {
+    width: 460px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 460px;
+    margin: 4 auto;
+    justify-content: space-around;
+    padding: 4px auto;
+} 
+
+main nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 460px;
+  margin: 4 auto;
+  justify-content: space-around;
+  padding: 4px auto;
+}
+
+main nav ul li {
+  width: 210px; 
+  /*
+  background: url(../images/bottanFrame.png) no-repeat right center/cover;  
+  */
+  flex-basis: auto;
+  padding: 4px 4px;
+  margin: 4px 4px;
+ }
+.drawer1 img , .drawer2 img , .drawer3 img , .drawer4 img {
+    width: 210px;
+    height: 90px;
+    /* object-fit: cover;   /* 4/7 */
+    margin: 4px;
+    
+}
+
+
+main .item33 img {
+  width: 540px;
+  /*object-fit: cover;   /* 4/7 */
+  /*
+  height: 264px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px;
+  
+}
+
+/* main section 4 */
+main .tour4  {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+main .item40  {
+  width: 100%;  /* 1366 -> 100% 4/7 */
+  /*
+  height: 336px;
+  */
+  flex-basis: auto;
+  margin: 8px 8px;   
+}
+main .item41 {
+  width: 480px;
+  /*
+  height: 406px;
+  */
+  flex-basis: auto;
+  margin: 8px 8px;   
+}
+main .item411 {
+  width: 311px;
+  /*
+  height: 24px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px;  
+}
+main .item412 {
+  width: 400px;
+  /*
+  height: 154px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px;  
+}
+main .item42 img {
+  width: 246px;
+ /* object-fit: cover;   /* 4/7 */
+  /*
+  height: 155px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px;
+  align-self: flex-end;
+}
+/*  main END */
+  /* modal */
+  
+  .modalDrawer {
+  width: 100%; /* 1366 -> 100% 4/7 */
+  background-color: #007AB7;
+  margin: 20px auto;
+  padding: 20px 20px 0; 
+}
+h3 {
+  left: 0; 
+  text-align: center;
+  font-family: Zen Kaku Gothic New;
+  font-size: 36px;
+  font-style: normal;
+  color: #ffffff;
+}  
+main .modalN1 , main .modalN2 , 
+main .modalN3 , main .modalN4 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px; /* 1200-> 600 */
+  
+  margin: 20px auto;
+  justify-content: space-around; 
+} 
+main .modal10 img  , main .modal20 img , 
+main .modal30 img , main .modal40 img {
+  width: 600px;  /* 600->300 */
+ /* object-fit: cover;   /* 4/7 */
+  /*  
+  height: 468px;  
+  */
+  flex-basis: auto;
+  margin: 8px 8px;   
+}
+main .modal11 , main .modal21 , 
+main .modal31 , main .modal41  {
+  width: 500px;  /* 500->250*/
+  /*
+  height: 460px; 
+  */
+  flex-basis: auto;
+  margin: 8px 8px; 
+  
+}
+main .modal111 , main .modal211 , 
+main .modal311 , main .modal411 {
+  width: 500px;  /* 500 ->250*/
+  /*
+  height: 192px; 
+  */ 
+  font-size: 20px;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal;
+  color: #ffffff;
+  word-break: normal; 
+  text-align: left;
+ } 
+
+main .modal112 , main .modal212 , 
+main .modal312 , main .modal412  {
+  width: 169px;
+  margin: 8px 8px; 
+  font-size: 20px;
+  justify-content: center;
+  font-family: Zen Kaku Gothic New;
+  font-style: normal;
+  color: #ffffff;
+  text-align: center;
+  
+}
+/** ドロワー表示を閉じるボタン **/
+.modalClose1 , .modalClose2 , .modalClose3 , .modalClose4 {  
+  
+    position: relative;
+   
+    width: 28px;  
+    height: 28px;
+    top: 0;    
+    right : 0;
+    margin: 8px 8px 8px auto;
+}
+/* modal eria end */
+/* footer */
+.footer {
+  height: 489px;
+  background-color: rgba(0, 122, 183, 0.9); 
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  
+}
+
+.footerContainer {
+  display: flex;
+  border-bottom: 1px solid #03A9F4;
+  padding: 0 20px 20px 20px;
+  margin: 0 84px;
+  width: 100%;   /* 1200 -> 100% 4/7 */
+  
+}
+.footerLeft {
+  width: 332px;
+  height: 292px;
+}
+.footerList li {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 32px;
+}
+.footerCenter, .footerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.footerCenter {
+  margin-left: 120px;
+}
+.footerRight {
+  margin-left: 269.1px;
+}
+.footerRight img {
+  margin-left: 40px;
+}
+.imgFooter1 {
+  width: 64px;
+  height: 48px;
+  margin: 40px auto 28px;
+}
+.imgFooter2 {
+  width: 256px;
+  height: 103px;
+}
+.copyRight {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* チェックボックスは常に非表示です */
+.gMenu .menu-btn {
+  display: none;
+}
+
+/* multi type  add erea */
+/*** マルチメディア対応　P.198   **********/
+
+@media screen and (max-width: 375px) {
+  
+  body {
+    font-size: 12px;     /* 20 -> 12 */
+  }
+  
+  header nav ul ,
+  main .tour10 , 
+  main .tour20 ,
+  main .tour3 , 
+  main .tour4 {
+    display: block;
+  }  
+  main h1 , h3 {
+    font-size: 24px;    /* 48 -> 24 */
+  }
+  h2 , header nav ul {
+    font-size: 12px;    /* 24 -> 12 */
+  }
+ /*
+  header .peiTop , header .logo1 , .innerWrap ,
+  header .icon1 img , header .icon2 img ,
+  header .icon3 img , header .logo3 img ,
+  .drawer1 img , .drawer2 img , .drawer3 img , .drawer4 img ,
+  .modalClose1 , .modalClose2 , .modalClose3 , .modalClose4 ,
+  .footerLeft , .imgFooter1 , .imgFooter2 {
+    width: 100%;   /* 1200 -> 100%  */
+    /*
+    height: 100%;
+    /*object-fit: cover;   /* 4/7 */
+/*
+  }  */
+  header .textTop ,
+  header nav ul , 
+  header .textAdress ,
+  main h1 ,
+  main .tour10 , main .tour11 , 
+  main .tour20 , main .tour21 ,
+  main .item10 img , main .item20 img ,
+  main .item11 , main .item21 {
+    width: 100%;
+  }
+  main .item12 img , main .item13  img , 
+  main .item22 img , main .item23  img ,
+  main .item14 , main .item24 ,
+  main .tour3 , main .item30 ,
+  main .item31  img , main .item32 ,
+  .toureN , main nav ul , main nav ul li ,
+  main .item33 img , main .tour4  ,
+  main .item40 , main .item41 , main .item411 ,
+  main .item412 , main .item42 img {
+    width: 100%;
+  }
+
+  .modalType , main .modalN1 , main .modalN2 ,
+  main .modalN3 , main .modalN4 ,
+  main .modal10 img  , main .modal20 img , 
+  main .modal30 img , main .modal40 img ,
+  main .modal11 , main .modal21 , 
+  main .modal31 , main .modal41 ,
+  main .modal111 , main .modal211 , 
+  main .modal311 , main .modal411 ,
+  main .modal112 , main .modal212 , 
+  main .modal312 , main .modal412 , 
+  .footer , .footerContainer ,
+  .footerLeft {
+    width: 100%;
+  }
+  /*
+  header .icon1 img {
+    margin: 103px 408px 56px 26px;
+  }
+  header .icon2 img {
+    margin: 144px 405px 38px 24px;
+  }
+  header .icon3 img {
+    margin: 164px 408px 20px 26px;
+  }
+  header .logo3 img {
+    margin: 23px 176px 44px 91px;
+  }
+  header .textTop {
+    margin: 163px 26px 5px 199px;
+  }
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* 以下に参考サイトのメニュー用CSSを貼り付ける */
+/* メニューを画面上部に固定表示しています */
+.gMenu {
+    position: absolute; /* fixed -> absolute */
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
+  /* メニューアイコンを画面右上に固定しています */
+  .gMenu .menu-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 4px; /* 10 -> 4 */
+    top: 4px;   /* 12 -> 4  */                    
+    padding-top: 4px;  /* 5->4 */
+    padding: 0px 0px 0px auto; /* ADD */
+    height: 12px;  /* 12 -> 20 */
+  }
+  /* メニューアイコン（三本線）の真ん中の線です */
+  .gMenu .menu-icon .navicon {
+    background: #ffc107; /* 色は自由に変更可能です */
+    display: block;
+    height: 2px; /* 太さ */
+    width: 31px; /* 長さ */
+    position: relative;
+    transition: background .4s ease-out; /* 形が変わる時のアニメーション */
+  }
+  /* メニューアイコン（三本線）の上と下の線を疑似要素で追加 */
+  .gMenu .menu-icon .navicon::before,
+  .gMenu .menu-icon .navicon::after {
+    background: #ffc107; /* 色は自由に変更可能です */
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .4s ease-out; /* 形が変わる時のアニメーション */
+    width: 100%;
+  }
+  .gMenu .menu-icon .navicon::before {top: 10px;} /* 位置を上にずらしています */
+  .gMenu .menu-icon .navicon::after {top: -10px;} /* 位置を下にずらしています */
+  /* 表示されるメニューです */
+  .gMenu .menu {
+    background-color: rgba(255,255,255,0.9);
+    overflow: hidden;
+    max-height: 0; /* ★最初は高さを0にして非表示状態に */
+    transition: max-height .6s; /* 表示されるときのアニメーション */
+    text-align: center;
+  }
+  /* メニュー部分のデザインです */
+  .gMenu .menu li:first-of-type {
+    padding-top: 50px;
+  }
+  .gMenu .menu li a {
+    display: block;
+    padding: 24px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .gMenu .menu li a:hover {
+    background-color: #f4f4f4;
+  }
+
+  /* チェックボックスは常に非表示です */  
+  .gMenu .menu-btn {
+    display: none;
+  }
+  
+  /* ▼▼▼以下はチェックボックスがONの時の状態です▼▼▼ */
+  .gMenu .menu-btn:checked ~ .menu {
+    max-height: 532px; /* ★チェックボックスがオンの時高さを338->532pxにして表示させます */
+    transition: max-height .6s;
+  }
+  /* メニューボタンの中央の線を非表示に */
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon {background: transparent;}
+  
+  /* メニューボタンの上下の線を45度傾けて✕印を作ります */
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon::before {transform: rotate(-45deg);top: 0;}
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon::after {transform: rotate(45deg);top: 0;}
+  /* サイトに合わせてオリジナルカスタマイズ */
+  .gMenu .menu-icon {
+    top: 26px;
+  }
+  .gMenu .menu-icon .navicon,
+  .gMenu .menu-icon .navicon::before,
+  .gMenu .menu-icon .navicon::after {
+    background: #333333;
+  }
+
+}

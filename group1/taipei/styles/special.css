@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* ===== style.cssの上書き ===== */
+.innerWrap , .ffJosefin ,
+.drawer {
+    max-width: 100%; 
+}
+.modalType {
+    max-width: 100%;
+}
+img {
+     max-width: 100%;
+}
+/* ===== 機能の実装に必要なCSS ===== */
+/* ドロワーナビゲーションの必須スタイル */
+.modalType {
+    position: absolute;
+    right: -1366px;
+    top: 0;
+    width: 1366px;
+    height: 100%;
+   
+}
+
+/* ドロワーが開かれたときのスタイル */
+.show {
+    transform: translate3d(-1366px, -400px, 0);
+}
+
+
+/* 開く・閉じるアニメーション */
+
+#modalOpen_nav1 , #modalOpen_nav2 , #modalOpen_nav3 ,
+#modalOpen_nav4 {
+    transition: transform 0.3s;
+}
